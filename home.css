@@ -1,0 +1,433 @@
+
+	/*--------------------------------------------*/
+	/*--------------------------------------------------------------*/
+	/*CSS Large Screen*/
+	/*--------------------------------------------------------------*/
+	/*--------------------------------------------*/
+	@media (min-width: 1000px) {
+		body {
+
+			font-family: 'Roboto', helvetica, sans-serif;
+			margin: 0px;
+
+		}
+
+		.bold {
+
+			font-weight: bold;
+			margin-right: 10px;
+			font-family: 'Lato', helvetica, sans-serif;
+		}
+
+		li {
+
+			list-style-type: none;
+
+		}
+
+	/*-------------------------------------------*/
+	/*--------------------------------------------------------------*/
+	/*Progress Bars*/
+	/*--------------------------------------------------------------*/
+	/*-------------------------------------------*/
+
+	.progressBar {
+
+		margin: 6px 10px 5px 0px;
+		padding: 0px;
+		background-color: #D4D3CE;
+		height: 8px;
+		width: 200px;
+
+	}
+
+	.progress1 {
+
+		height: 100%;
+		width: 100%;
+		background-color:#0AA1DA;
+		margin: 0px;
+		padding: 0px;
+
+	}
+
+	.progress2 {
+
+		height: 100%;
+		width: 85%;
+		background-color:#0AA1DA;
+
+	}
+
+	.progress3 {
+
+		height: 100%;
+		width: 75%;
+		background-color:#0AA1DA;
+
+	}
+
+	.progress4 {
+
+		height: 100%;
+		width: 65%;
+		background-color:#0AA1DA;
+
+	}
+
+	.progress5 {
+
+		height: 100%;
+		width: 45%;
+		background-color:#0AA1DA;
+
+	}
+
+	.progress6 {
+
+		height: 100%;
+		width: 65%;
+		background-color:#0AA1DA;
+
+	}
+
+	/*-------------------------------------------*/
+	/*--------------------------------------------------------------*/
+	/*Navigation, Title, and TitleInfo*/
+	/*--------------------------------------------------------------*/
+	/*-------------------------------------------*/
+
+	.homeNavigation {
+		padding: 0px;
+		background-color: rgb(2,136,199);
+		color: white;
+	}
+
+	.homeNavigation li {
+
+		color: #6BCDFF;
+		list-style-type: none;
+		padding: 15px 0px 10px 0px;
+		margin: 0px 15px 0px 15px;
+		border-bottom: 2px solid #0288C7;
+		transition: .5s;
+		cursor: pointer;
+	}
+
+	.homeNavigation li:hover {
+
+		color: white;
+		border-bottom: 2px solid white;
+		transition: .5s;
+
+	}
+
+	.homeNavigation ul{
+
+		padding: 0px;
+		display: flex;
+		margin: 0px 30px 0px 30px;
+
+	}
+
+	#classSelect {
+
+		color: white;
+		border-bottom: 2px solid white;
+
+	}
+
+	.title {
+
+		padding: 0px;
+		margin: 0px;
+
+	}
+
+	.titleHeader h1 {
+
+		font-size: 3.5em;
+
+	}
+
+	.titleHeader p {
+
+		font-size: 1.3em;
+
+	}
+
+	.titleHeader {
+
+		display: flex;
+		background-color: #0AA1DA;
+		color: white;
+		padding: 50px 120px 50px 90px;
+
+	}
+
+	.titleInfo {
+
+		background-color: #5B666C;
+		color: white;
+		padding: 40px;
+		box-shadow: inset 0  0 10px #000000;
+
+	}
+
+	/*---------------------------------*/
+	/*--------------------------------------------------------------*/
+	/*MAIN INFO*/
+	/*--------------------------------------------------------------*/
+	/*---------------------------------*/
+
+	.mainInfo {
+
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+
+	.mainInfo aside{
+
+		padding: 30px 30px 40px 50px;
+		width: 300px;
+		box-shadow: 5px 0 5px -2px black;
+
+	}
+
+	aside h2 {
+
+		color: #1797D0;
+		font-size: 2em;
+
+	}
+
+	.personalList{
+		margin: 0px;
+		padding: 0px;
+
+	}
+
+	.personalList ul {
+
+		margin: 0px;
+		padding: 0px;
+
+	}
+
+	.personalList li {
+
+		display: flex;
+		margin: 0px;
+		padding: 0px;
+		border-bottom: 1px solid lightgrey;
+		list-style-type: none;
+
+
+	}
+
+	.softwareList{
+		margin: 0px;
+		padding: 0px;
+
+	}
+
+	.softwareList ul {
+
+		margin: 0px;
+		padding: 0px;
+
+	}
+
+	.softwareList li {
+
+		display: flex;
+		margin: 0px 0px 10px 0px;
+		padding: 0px;
+
+	}
+
+	.softwareList p {
+
+		padding: 0px 0px 0px 0px;
+		margin: 0px;
+		width: 150px;
+
+	}
+
+	.hobbiesList {
+
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		padding: 0px;
+		margin: 0px;
+
+	}
+
+	.hobbiesList li {
+
+		margin: 5px;
+		text-align: center;
+
+	}
+
+	.hobbiesList p {
+
+		font-weight: bold;
+
+	}
+
+	.hobbiesList i {
+
+		padding: 15px;
+
+		color: white;
+		background-color: #A1CAF2;
+		font-size: 2.5em;
+		border: 1px #A1CAF2 solid;
+		border-radius: 100%;
+
+	}
+	/*--------------------------------------*/
+	/*****************************************/
+	/*MAIN ARTICLE*/
+	/*****************************************/
+	/*--------------------------------------*/
+	.mainInfo article {
+
+		margin: 0px 0px 0px 30px;
+		padding: 30px 30px 40px 50px;
+
+	}
+
+	.mainInfo article h2 {
+
+		color: #1797D0;
+		font-size: 2em;
+
+	}
+
+
+
+	.workInfo {
+
+	margin: 0px;
+	padding: 0px;
+
+	}
+
+	.workList {
+
+		margin: 0px;
+		padding: 10px;
+		border-left: 1px solid #0AA1DA;
+
+	}
+
+	.workInline {
+
+		display: flex;
+		padding: 0px
+
+	}
+
+	.workInline h3 {
+
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+
+	}
+
+	.workInline p {
+
+		margin: 21px 0px 0px 20px;
+		font-size: 1.1em;
+		font-weight: bold;
+
+	}
+
+	.skillList {
+
+		display: flex;
+		margin: 0px;
+		padding: 0px;
+
+	}
+
+	.educationList {
+
+		margin: 0px;
+		padding: 10px;
+		border-left: 1px solid #0AA1DA;
+
+
+	}
+
+	/*--------------------------------------*/
+	/*--------------------------------------------------------------*/
+	/*Media Info and Footer*/
+	/*--------------------------------------------------------------*/
+	/*--------------------------------------*/
+
+	footer .mediaButtons {
+
+		display: flex;
+		background-color: #0AA1DA;
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.mediaButtons ul{
+
+		display: flex;
+
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+
+	}
+
+	.mediaButtons ul li  {
+
+		color: white;
+		text-align: center;
+		margin: 40px;
+
+	}
+
+	.mediaButtons ul p {
+
+		font-size: .9em;
+
+	}
+
+	.mediaButtons ul i {
+
+		padding: 15px;
+		font-size: 2.5em;
+		background-color: #0B87C9;
+		border: 1px solid #0B87C9;
+		border-radius: 100%;
+
+	}
+
+	.contactInfo {
+
+		display: flex;
+		justify-content: space-around;
+		margin: 0px;
+		padding: 15px;
+		color: white;
+		background-color: #0187CE;
+
+	}
+
+	.contactInfo p {
+
+		margin: 8px;
+		font-size: .85em;
+
+	}
+
+}
